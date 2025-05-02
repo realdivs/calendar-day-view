@@ -1,6 +1,5 @@
 export const DayTimeSlots = () => {
   const slots = new Array(24).fill(0).map((_, index) => index);
-  console.log(slots);
   return (
     <>
       {slots.map((slot) => (
